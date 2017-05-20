@@ -10,12 +10,13 @@ body, html {
 
 .form-container{
   width: 40%;
-  height: 50%;
-  margin:10% auto auto auto;
+  /*height: 45%;*/
+  margin:10% auto 10% auto;
   border: 2px solid #f2f2f2;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
 }
+
 footer{
   width: 100%;
   left: 0;
@@ -78,6 +79,11 @@ nav{
 .panel{
   width: 90%;
   margin:0px 5% 5px 5%;
+}
+
+.form-container{
+  width: 90%;
+  margin:10% auto 5% auto;
 }
 
 }
