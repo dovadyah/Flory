@@ -65,6 +65,11 @@ img{
   z-index: -1;
 }*/
 
+.jumbotron.container.flory {
+    width: 90%;
+    border-radius: 5px;
+}
+
 nav{
   border: 0px;
 }
@@ -104,6 +109,9 @@ nav{
 .form-container{
   width: 90%;
   margin:10% auto 5% auto;
+}
+.row{
+  margin-bottom: 20%;
 }
 
 }
