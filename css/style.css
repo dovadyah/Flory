@@ -53,10 +53,15 @@ img{
 nav{
   border: 0px;
 }
+
+.navbar-right{
+  padding-right: 30px;
+}
 .panel{
   width: 24%;
   margin-left: 5px;
 }
+
 
 .well{
   margin: 10px 0px 10px 0px;
