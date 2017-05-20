@@ -4,10 +4,42 @@ body, html {
     padding:0;
     margin:0;
 }
+.flory{
+  color: #A8E2DC;
+}
+footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  background-color:#0d0d0d;
+  text-align:center;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+}
+
 img{
   width: 100%;
   height: auto;
 }
+
+/*#image{
+  float: left;
+  width: 250px;
+  height: 250px;
+}*/
+
+/*#line{
+  border-left: medium #A8E2DC solid;
+  border-width: 10px;
+  height: 200px;
+  margin-left: 270px;
+  border-radius: 10px;
+  width: 1px;
+  margin-right: 1px;
+  z-index: -1;
+}*/
 
 nav{
   border: 0px;
@@ -21,6 +53,10 @@ nav{
   margin: 10px 0px 10px 0px;
 }
 
+/*#words{
+  float: right;
+}*/
+
 
 /*Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -29,7 +65,6 @@ nav{
   width: 90%;
   margin:0px 5% 5px 5%;
 }
-
 
 }
 
