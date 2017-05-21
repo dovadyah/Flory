@@ -12,6 +12,16 @@ a:hover {
 a:active {
     color: #A8E2DC;
 }
+
+.box {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+    box-shadow: 1px 2px 7px;
+    border-radius: 3px;
+    margin: 5px auto 10px auto;
+}
+
 .flory{
   background-color: #A8E2DC;
   opacity: .8;
