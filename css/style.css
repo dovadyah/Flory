@@ -4,18 +4,28 @@ body, html {
     padding:0;
     margin:0;
 }
+
+a:hover {
+    color: #A8E2DC;
+}
+
+a:active {
+    color: #A8E2DC;
+}
 .flory{
-  color: #A8E2DC;
+  background-color: #A8E2DC;
+  opacity: .8;
 }
 
 .form-container{
   width: 40%;
-  height: 50%;
-  margin:10% auto auto auto;
+  /*height: 45%;*/
+  margin:10% auto 10% auto;
   border: 2px solid #f2f2f2;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
 }
+
 footer{
   width: 100%;
   left: 0;
@@ -27,6 +37,11 @@ footer{
   overflow: hidden;
   position: fixed;
 }
+
+img.img-rounded {
+  border-radius: 100px;
+}
+
 
 img{
   width: 100%;
@@ -50,18 +65,34 @@ img{
   z-index: -1;
 }*/
 
+.jumbotron.container.flory {
+    width: 90%;
+    border-radius: 5px;
+}
+
 nav{
   border: 0px;
+}
+
+.navbar-right{
+  padding-right: 30px;
 }
 .panel{
   width: 24%;
   margin-left: 5px;
 }
 
+.row{
+  margin-bottom: 5%;
+}
+
 .well{
   margin: 10px 0px 10px 0px;
 }
 
+.well.flory {
+    border-radius: 30px;
+}
 /*#words{
   float: right;
 }*/
@@ -73,6 +104,14 @@ nav{
 .panel{
   width: 90%;
   margin:0px 5% 5px 5%;
+}
+
+.form-container{
+  width: 90%;
+  margin:10% auto 5% auto;
+}
+.row{
+  margin-bottom: 20%;
 }
 
 }
