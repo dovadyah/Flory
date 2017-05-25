@@ -2,11 +2,10 @@
 <html>
 <head>
 
-<!-- add a black nav bar 
-	
- -->
 <!--CSS-->
 <link rel="stylesheet" type="text/css" href="../css/flory.css">
+<link rel="stylesheet" href="../CSS/style.css">
+
 <link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Muli|Gloria+Hallelujah|Josefin+Sans" rel="stylesheet">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -24,19 +23,32 @@
 
 </head>
 <body>
-<!--Header-->
-<div id="introduction-flory">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Body Below~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="introduction-flory container-fluid">
 
-<!--<h1>Flory</h1>-->
-<div id="nav-bar">
-	<!--Navigation List-->
-	<ul>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FLORY</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#introduction-flory">Home</a></li>
+        <li class="navbar-right"><a href="#team-flory">Meet The Team</a></li>
+        <li class="navbar-right"><a href="#work-flory">How It Works</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li class="navbar-right"><a href="#register-form">Sign In / Up</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	<!-- <ul>
 		<a href="#introduction-flory" name="introduction-flory"><li>Home</li></a>
 		<a href="#work-flory" name="work-flory"><li>How It Works</li></a>
 		<a href="#team-flory" name="team-flory"><li>Meet The Team</li></a>
 		<a href="#register-form" name="register-form"><li>Log In/Sign Up</li></a>
-	</ul>
-</div>
+	</ul> -->
 
 <!--Workflow-->
 <div class ="panel1">
@@ -85,7 +97,7 @@
 </div>
 
 <!--Sign Up Form-->
-<!-- 
+<!--
 	<div id="register-form">
 		<h2>Sign up</h2>
 		<p>Sign up to be a beta tester!</p>
@@ -238,7 +250,7 @@
 			<input type="password" name="user-password" required><br>
 			<input type="submit" value="Log In">
 		</form>
-		
-	</div> --> 
+
+	</div> -->
 </body>
 </html>

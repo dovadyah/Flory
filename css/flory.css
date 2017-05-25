@@ -8,7 +8,7 @@
     text-align: left;
     background-color: #a3e5df;
     background-size: 1500px;
-} 
+}
 
 #scatter{
 	color: #FFF5EE;
@@ -38,7 +38,7 @@ background-color: white;
 
 #work-flory{
 height: 100px;
-width: 200px;	
+width: 200px;
 margin: auto auto auto auto;
 }
 
@@ -123,7 +123,7 @@ margin: auto auto auto auto;
 |	Register Form Div		|
 ----------------------------*/
 
-#register-form{
+/*#register-form{
 	float: left;
 	padding: 100px 200px 100px 100px;
 	color: black;
@@ -199,13 +199,13 @@ margin: auto auto auto auto;
     height: 30px;
     font-family: monospace;
     font-size: 15px;
-}
+}*/
 
 /* -------------------------
 |	Log In Form Div 		|
 ----------------------------*/
 
-#login-form{ 
+/*#login-form{
 	float: right;
 	padding: 100px;
 	color: black;
@@ -267,13 +267,13 @@ margin: auto auto auto auto;
     height: 30px;
     font-family: monospace;
     font-size: 15px;
-}
+}*/
 
 /* -------------------------
 |	Navigation Bar Div 		|
 ----------------------------*/
 
-#nav-bar ul{
+/*#nav-bar ul{
 	text-align: center;
 	font-size: 18px;
 	font-family: monospace;
@@ -288,7 +288,7 @@ margin: auto auto auto auto;
 	padding-left: 30px;
 	padding-right: 30px;
 	display: inline-block;
-}
+}*/
 
 #nav-bar a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
