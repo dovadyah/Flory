@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="../CSS/style.css">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta charset="utf-8">
+  <title>FLORY</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FLORY</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="about.html">Home</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid profile">
+    <div class="row">
+      <div class="col-md-3 about-me" id="left-row">
+        <div class="well">
+          <img src="../img/temp_profile.jpg" class="img-rounded" alt="profile pic">
+          <div class="box">
+            <p>some text</p>
+          </div>
+          <div class="box">
+            <p>some text</p>
+          </div>
+          <div class="box">
+            <p>some more text</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-8 temp" id="right-row">
+        <div class="well">
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+          <div class="search">
+            <ul id="myUL">
+              <li><a href="#" class="header">A</a></li>
+              <li><a href="#">Adele</a></li>
+              <li><a href="#">Agnes</a></li>
+              <li><a href="#">Angie</a></li>
+
+              <li><a href="#" class="header">B</a></li>
+              <li><a href="#">Billy</a></li>
+              <li><a href="#">Bob</a></li>
+              <li><a href="#">boe</a></li>
+
+              <li><a href="#" class="header">C</a></li>
+              <li><a href="#">Calvin</a></li>
+              <li><a href="#">Christina</a></li>
+              <li><a href="#">Cindy</a></li>
+              <li><a href="#">Caroline</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <p>
+        Questions? Please drop us an email or send feedback here:
+        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Mail</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
+
+<script>
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
