@@ -2,15 +2,9 @@
 |	Main Page Div			|
 ----------------------------*/
 
-#introduction-flory{
-    padding: 123% 0px 0px 0px;
-   	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
-    text-align: left;
-    background-color: #a3e5df;
-    background-size: 1500px;
-}
 
-#scatter{
+
+/*#scatter{
 	color: #FFF5EE;
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;
@@ -24,36 +18,29 @@
 #scatter h2{
 	margin: 0px;
 	text-align: center;
-}
+}*/
 
 /* -------------------------
 |	How It Works Div		|
 ----------------------------*/
 
-.panel1{
-width: 100%;
-height: 900px;
-background-color: white;
-}
 
-#work-flory{
-height: 100px;
-width: 200px;
-margin: auto auto auto auto;
-}
 
-#work-flory h2{
+
+
+
+/*#work-flory h2{
 	font-family: 'Josefin Sans';
 	font-size: 40px;
 	color: #a3e5df;
 	text-align: center;
-}
+}*/
 
 /* -------------------------
 |	Meet the Team Div		|
 ----------------------------*/
 
-#team-flory a {
+/*#team-flory a {
 	color: #FFF5EE;
 	text-decoration: none;
 }
@@ -117,7 +104,7 @@ margin: auto auto auto auto;
 
 #team-flory #llopiz-profile{
 	width: fit-content;
-}
+}*/
 
 /* -------------------------
 |	Register Form Div		|
