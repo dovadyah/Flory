@@ -1,0 +1,12 @@
+#nav-bar{
+	border: 2px solid black;
+	background-color: red;
+}
+
+#nav-bar #profile-home-logo {
+	width: 100px;
+}
+
+#profile-placeholder{
+	width: 175px;
+}

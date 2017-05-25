@@ -1,0 +1,296 @@
+/* -------------------------
+|	Main Page Div			|
+----------------------------*/
+
+#introduction-flory{
+    padding: 123% 0px 0px 0px;
+   	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
+    text-align: left;
+    background-color: #a3e5df;
+    background-size: 1500px;
+} 
+
+#scatter{
+	color: #FFF5EE;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	padding: 0px;
+	transform: rotate(30deg);
+	position: absolute;
+	top: 300px;
+	right: 200px;
+}
+
+#scatter h2{
+	margin: 0px;
+	text-align: center;
+}
+
+/* -------------------------
+|	How It Works Div		|
+----------------------------*/
+
+.panel1{
+width: 100%;
+height: 900px;
+background-color: white;
+}
+
+#work-flory{
+height: 100px;
+width: 200px;	
+margin: auto auto auto auto;
+}
+
+#work-flory h2{
+	font-family: 'Josefin Sans';
+	font-size: 40px;
+	color: #a3e5df;
+	text-align: center;
+}
+
+/* -------------------------
+|	Meet the Team Div		|
+----------------------------*/
+
+#team-flory a {
+	color: #FFF5EE;
+	text-decoration: none;
+}
+
+#team-flory	h2{
+	font-family: 'Josefin Sans';
+	font-size: 50px;
+	color: #FFF5EE;
+	position: absolute;
+	right: 850px;
+	border: 2px black solid;
+}
+
+#team-flory	h3{
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	margin: 0;
+	padding-bottom: 10px;
+	color: #FFF5EE;
+}
+
+#team-flory h4{
+	font-family: 'Josefin Sans';
+	margin: 0;
+	padding-bottom: 30px;
+	font-size: 20px;
+	color: #FFF5EE;
+}
+
+#team-flory{
+	text-align: center;
+	background-color: #a3e5df;
+	padding: 435px;
+	margin: 0px;
+}
+
+#team-flory .team-pic{
+	width: 200px;
+	border-radius: 50%;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+#team-flory #kron-profile{
+	padding-bottom: 25px;
+	width: fit-content;
+	position: absolute;
+	left: 500px;
+}
+
+#team-flory #daniel-profile{
+	width: fit-content;
+	position: absolute;
+	right: 550px;
+}
+#team-flory #kev-profile{
+	width: fit-content;
+	position: absolute;
+	right: 550px;
+}
+
+#team-flory #llopiz-profile{
+	width: fit-content;
+}
+
+/* -------------------------
+|	Register Form Div		|
+----------------------------*/
+
+#register-form{
+	float: left;
+	padding: 100px 200px 100px 100px;
+	color: black;
+	text-align: center;
+	left: 100px;
+	position: absolute;
+	border-right: medium solid black;
+}
+
+#register-form h2{
+	font-size: 70px;
+	font-family: 'Josefin Sans', cursive;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #black;
+	width: fit-content;
+}
+
+#register-form	p{
+	font-size: 15px;
+	font-family: 'Josefin Sans';
+	text-align: center;
+	width: fit-content;
+}
+
+#register-form	form{
+	font-size: 20px;
+	font-family: 'Josefin Sans';
+	width: fit-content;
+}
+
+#register-form input[type=text]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 220px;
+}
+
+#register-form input[type=email]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 220px;
+}
+
+#register-form input[type=tel]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 220px;
+}
+
+#register-form input[type=password]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 220px;
+}
+
+#register-form input[type=submit]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 200px;
+    background-color: black;
+    color: #FFF5EE;
+    height: 30px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/* -------------------------
+|	Log In Form Div 		|
+----------------------------*/
+
+#login-form{ 
+	float: right;
+	padding: 100px;
+	color: black;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+}
+
+#login-form form{
+	font-size: 20px;
+	font-family: 'Josefin Sans';
+	text-align: center;
+	width: fit-content;
+}
+
+#login-form h2{
+	font-size: 70px;
+	font-family: 'Josefin Sans', cursive;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: black;
+	width: fit-content;
+}
+
+#login-form	p{
+	font-size: 15px;
+	font-family: 'Josefin Sans';
+	text-align: center;
+	width: fit-content;
+}
+
+#login-form input[type=text]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    width: 220px;
+}
+
+#login-form input[type=password]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 220px;
+}
+
+#login-form input[type=submit]{
+	border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: #a3e5df;
+    color: #FFF5EE;
+    height: 30px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/* -------------------------
+|	Navigation Bar Div 		|
+----------------------------*/
+
+#nav-bar ul{
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+    list-style-type: none;
+    width: fit-content;
+    position: fixed;
+    top: 25px;
+    right: 35px;
+}
+
+#nav-bar li{
+	padding-left: 30px;
+	padding-right: 30px;
+	display: inline-block;
+}
+
+#nav-bar a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #FFF5EE;
+}
