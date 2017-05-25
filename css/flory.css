@@ -3,8 +3,8 @@
 ----------------------------*/
 
 #introduction-flory{
-	padding: 503px;
-	background: url(white_logo_color_background.png) no-repeat center center fixed;
+    padding: 123% 0px 0px 0px;
+   	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
     text-align: left;
     background-color: #a3e5df;
     background-size: 1500px;
@@ -30,9 +30,16 @@
 |	How It Works Div		|
 ----------------------------*/
 
+.panel1{
+width: 100%;
+height: 900px;
+background-color: white;
+}
+
 #work-flory{
-	padding: 435px;
-	margin: 0px;
+height: 100px;
+width: 200px;	
+margin: auto auto auto auto;
 }
 
 #work-flory h2{
