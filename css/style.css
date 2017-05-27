@@ -59,10 +59,10 @@ img{
 }
 
 .intro-flory{
-    padding: 123% 0px 0px 0px;
-   	background: url("../img/flory-logo-white-back.png") no-repeat center center fixed;
+    padding: 90% 0px 0px 0px;
+   	background: url("../img/white_logo_color_background 2.png") no-repeat center center fixed;
     text-align: left;
-    background-color: #FFFFFF;
+    background-color: #71b8f1;
     background-size: 75%;
 }
 
@@ -119,6 +119,7 @@ img{
 nav{
   border: 0px;
   position: fixed;
+  background-color: #FFF;
 }
 
 .navbar-right{
@@ -159,10 +160,13 @@ background-color: white;
 /*~~~~~~~~~~~~~~~~~Panels~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #intro-flory{
 padding-top:50px;
-height:500px;
+height:1000px;
 width: 100%;
 /*color: #337ab7;*/
-background-color: #337ab7;
+background-color: #FFF;
+}
+#intro-flory img{
+  size: 400px;
 }
 
 #work-flory{
@@ -170,7 +174,7 @@ padding-top:50px;
 height:500px;
 width: 100%;
 /*color: #39ae3b;*/
-background-color: #39ae3b;
+background-color: #71b8f1;
 }
 
 #team-flory{
