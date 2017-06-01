@@ -1,0 +1,38 @@
+/*Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.panel{
+  width: 90%;
+  margin:0px 5% 5px 5%;
+}
+
+.form-container{
+  width: 90%;
+  margin:10% auto 20% auto;
+}
+.row{
+  margin-bottom: 20%;
+}
+
+.intro-flory{
+  background-size: 100%;
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+
+.panel{
+  width: 20%;
+margin: 0px 0% 5px 3.5%;
+}
+
+}
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+  .panel{
+    margin:0px 5px 5px 5px;
+  }
+}
