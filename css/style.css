@@ -59,11 +59,10 @@ img{
 }
 
 .intro-flory{
-    padding: 123% 0px 0px 0px;
    	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
     text-align: left;
     background-color: #a3e5df;
-    background-size: 100%;
+    background-size: 80%;
 }
 
 .jumbotron.container.flory {
@@ -121,6 +120,11 @@ nav{
   position: fixed;
 }
 
+#nav-bar a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+	color: #FFF5EE;
+}
+
 .navbar-right{
   padding-right: 30px;
 }
@@ -157,9 +161,13 @@ background-color: white;
 }
 
 /*~~~~~~~~~~~~~~~~~Panels~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.screen{
+  height: 100vh;
+}
+
 #intro-flory{
 padding-top:50px;
-height:500px;
+/*height:100vh;*/
 width: 100%;
 /*color: #337ab7;*/
 background-color: #337ab7;
@@ -167,7 +175,7 @@ background-color: #337ab7;
 
 #work-flory{
 padding-top:50px;
-height:500px;
+/*height:100vh;*/
 width: 100%;
 /*color: #39ae3b;*/
 background-color: #39ae3b;
@@ -175,7 +183,7 @@ background-color: #39ae3b;
 
 #team-flory{
 padding-top:50px;
-height:500px;
+/*height:100vh;*/
 width: 100%;
 /*color: #e33733;*/
 background-color: #e33733;
@@ -197,6 +205,10 @@ background-color: #e33733;
 }
 .row{
   margin-bottom: 20%;
+}
+
+.intro-flory{
+  background-size: 100%;
 }
 
 }
