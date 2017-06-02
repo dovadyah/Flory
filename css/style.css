@@ -60,19 +60,16 @@ img{
   height: auto;
 }
 
-.intro-flory{
-<<<<<<< HEAD
+.intro-flor
    	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
     text-align: left;
     background-color: #a3e5df;
     background-size: 80%;
-=======
     padding: 90% 0px 0px 0px;
    	background: url("../img/white_logo_color_background 2.png") no-repeat center center fixed;
     text-align: left;
     background-color: #71b8f1;
     background-size: 75%;
->>>>>>> origin/about-us-v2
 }
 
 .jumbotron.container.flory {
@@ -179,11 +176,8 @@ background-color: white;
 
 #intro-flory{
 padding-top:50px;
-<<<<<<< HEAD
 /*height:100vh;*/
-=======
 height:1000px;
->>>>>>> origin/about-us-v2
 width: 100%;
 /*color: #337ab7;*/
 background-color: #FFF;
