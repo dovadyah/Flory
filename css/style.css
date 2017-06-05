@@ -3,7 +3,7 @@ body, html {
     position: relative;
     padding:0;
     margin:0;
-    font-family: "Josefin Sans" !important;
+    font-family: "Josefin Sans"  ;
 }
 
 a:hover {
@@ -12,7 +12,7 @@ a:hover {
 
 a:active {
     color: #71b8f1;
-    background-color: #fff !important;
+    background-color: #fff  ;
 }
 
 .box {
@@ -60,7 +60,7 @@ img{
   height: auto;
 }
 
-.intro-flor
+.intro-flor{
    	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
     text-align: left;
     background-color: #a3e5df;
@@ -123,10 +123,10 @@ img{
 }
 
 nav{
-  border: 2px solid #fff !important;
+  border: 2px solid #fff;
   position: fixed;
-  color: 71b8f1 !important;
-  background-color: #FFF !important;
+  color: #71b8f1 ;
+  background-color: #FFF;
 }
 
 #nav-bar a:link, a:visited, a:hover, a:active{
