@@ -60,16 +60,16 @@ img{
   height: auto;
 }
 
-.intro-flor{
+.intro-flory{
    	background: url("../img/white_logo_color_background copy.png") no-repeat center center fixed;
     text-align: left;
     background-color: #a3e5df;
     background-size: 80%;
     padding: 90% 0px 0px 0px;
-   	background: url("../img/white_logo_color_background 2.png") no-repeat center center fixed;
-    text-align: left;
-    background-color: #71b8f1;
-    background-size: 75%;
+   	/*background: url("../img/white_logo_color_background 2.png") no-repeat center center fixed;*/
+    /*text-align: left;*/
+    /*background-color: #71b8f1;*/
+    /*background-size: 75%;*/
 }
 
 .jumbotron.container.flory {
@@ -125,11 +125,11 @@ img{
 nav{
   border: 2px solid #fff;
   position: fixed;
-  color: #71b8f1 ;
+  color: #71b8f1;
   background-color: #FFF;
 }
 
-#nav-bar a:link, a:visited, a:hover, a:active{
+.nav-bar a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
 	color: #FFF5EE;
 }
